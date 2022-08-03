@@ -56,7 +56,7 @@ Para executar a aplicação:
 git clone https://github.com/carlosbandelli/Cards.git
 ```
 
-Execute na raiz para baixar as dependências(entre na pasta src):
+Execute na raiz para baixar as dependências:
 
 ```
 npm install
