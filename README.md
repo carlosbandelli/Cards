@@ -123,6 +123,8 @@ Um breve resumo desse parte, eu coloquei os estados inicias do projeto com duas 
 Conforme código abaixo:
 
 ```
+ const shuffleList = (list) => list.sort(() => Math.random() - 0.5)
+
 const handleShuffle = () => {
     const shuffledPosts = shuffleList(posts);
     setPosts([...shuffledPosts])
